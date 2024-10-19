@@ -25,10 +25,10 @@ const Banner = () => {
        
             <div className="absolute left-14 right-10 -top-12 bottom-0 w-7/12 h-full flex flex-col justify-center items-start p-8 text-white ">
                 <h1 className={`text-7xl font-bold bg-[linear-gradient(180deg,#000000_0%,#00000020_0%,#ffffff_100%)] bg-clip-text text-transparent`}>
-                    More than <br /> just a game. <br /> It’s a lifestyle.
+                    More than <br /> just a game. <br /> It&apos;s a lifestyle.
                 </h1>
                 <p className="mt-4 text-lg">
-                    Whether you’re just starting out, have played <br /> your whole life, or you're a Tour pro, your <br /> swing is like a fingerprint.
+                    Whether you&apos;re just starting out, have played <br /> your whole life, or you&apos;re a Tour pro, your <br /> swing is like a fingerprint.
                 </p>
                 <a href="#_" className="px-5 py-2.5 relative rounded group font-medium text-white inline-block mt-6">
                     <span className="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
