@@ -15,6 +15,11 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+ 
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'], // Define Poppins as a utility
+      },
+    
   },
   plugins: [
     // require('daisyui'),
