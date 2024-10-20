@@ -1,17 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import { Poppins } from '@next/font/google';
 
 
-const poppins = Poppins({
-    weight: ['400', '700'],
-    subsets: ['latin'],
-    variable: '--font-poppins',
-});
+
+
 
 const Banner = () => {
     return (
-        <div className={`relative flex items-center h-[500px] lg:h-[820px] ${poppins.variable}`}> {/* Increase height here */}
+        <div className='relative flex items-center h-[500px] lg:h-[820px]'> 
           
             <Image 
                 src="/banner.png" 
