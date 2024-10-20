@@ -1,28 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class', // Enable class-based dark mode for manual toggling
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--background)", // Use CSS variables for background
+        foreground: "var(--foreground)", // Use CSS variables for text color
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'], // Define Poppins font family
       },
     },
- 
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'], // Define Poppins as a utility
-      },
-    
   },
-  plugins: [
-    // require('daisyui'),
-  ],
-  // purge: false, // Temporarily disable purging
+  plugins: [],
 };
