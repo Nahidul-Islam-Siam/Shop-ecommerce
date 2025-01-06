@@ -44,13 +44,13 @@ const Feature = () => {
             discount: '',
             hot: false,
         },
-        // Add more products as needed
+
     ];
     return (
-        <div>
-            {/* <ProductCard></ProductCard> */}
+        <div className='bg-white dark:bg-gray-900'>
+ 
             <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-6">Featured Products</h1>
+            <h1 className="text-3xl font-bold mb-6 dark:text-white">Featured Products</h1>
             <ProductSlider products={products} />
         </div>
         </div>
