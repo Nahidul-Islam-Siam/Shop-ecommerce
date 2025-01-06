@@ -7,7 +7,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='relative flex items-center h-[500px] lg:h-[820px]'> 
+        <div className='relative flex items-center h-[500px] lg:h-[820px] dark:bg-gray-900'> 
           
             <Image 
                 src="/banner.png" 
@@ -20,10 +20,10 @@ const Banner = () => {
 
        
             <div className="absolute left-14 right-10 -top-12 bottom-0 w-7/12 h-full flex flex-col justify-center items-start p-8 text-white ">
-                <h1 className={`text-7xl font-bold bg-[linear-gradient(180deg,#000000_0%,#00000020_0%,#ffffff_100%)] bg-clip-text text-transparent`}>
+                <h1 className={`text-3xl md:text-4xl lg:text-7xl font-bold bg-[linear-gradient(180deg,#000000_0%,#00000020_0%,#ffffff_100%)] bg-clip-text text-transparent`}>
                     More than <br /> just a game. <br /> It&apos;s a lifestyle.
                 </h1>
-                <p className="mt-4 text-lg">
+                <p className="mt-4 text-xs  md:text-base lg:text-base">
                     Whether you&apos;re just starting out, have played <br /> your whole life, or you&apos;re a Tour pro, your <br /> swing is like a fingerprint.
                 </p>
                 <a href="#_" className="px-5 py-2.5 relative rounded group font-medium text-white inline-block mt-6">
